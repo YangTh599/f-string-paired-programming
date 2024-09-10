@@ -28,6 +28,9 @@ item = input("What object will your hero collect? \n")
 
 if setting[0:1] == "a":
     story = f'Somewhere in {setting}, a hero suddenly appears. Their name.. {hero_name.capitalize()}! {hero_name.capitalize()} rose from their sudden spawnpoint, and at their feet they pick up a {item.lower()}.'
+
+elif setting[0:1] == "A":
+     story = f'Somewhere in a {setting[2:len(setting)]}, a hero suddenly appears. Their name.. {hero_name.capitalize()}! {hero_name.capitalize()} rose from their sudden spawnpoint, and at their feet they pick up a {item.lower()}.'
 else:
      story = f'Somewhere in a {setting}, a hero suddenly appears. Their name.. {hero_name.capitalize()}! {hero_name.capitalize()} rose from their sudden spawnpoint, and at their feet they pick up a {item.lower()}.'
 
