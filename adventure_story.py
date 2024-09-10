@@ -21,3 +21,11 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+
+hero_name = input("What is your hero's name? \n")
+setting = input("Where does your journey begin? Whats the setting? \n")
+item = input("What object will your hero collect? \n")
+
+story = f'Somewhere in a {setting}, a hero suddenly appears. Their name.. {hero_name.capitalize()}! {hero_name.capitalize()} rose from their sudden spawnpoint, and at their feet they pick up a {item.lower()}.'
+
+print("\n"+story)
