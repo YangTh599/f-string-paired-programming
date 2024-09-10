@@ -1,5 +1,5 @@
-# Student name
-# Current date
+# Thayer Yang
+# 10 SEP 2024
 # f-String Adventure Story
 
 '''
