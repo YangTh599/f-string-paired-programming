@@ -1,5 +1,5 @@
-# Student name
-# Current date
+# Thayer Yang
+# 10 SEP 2024
 # f-String Greeting Card 
 
 '''
@@ -19,3 +19,9 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+
+name = input("What is your first name? \n")
+occasion = input("What is the occassion for today? \n")
+custom_message = input("Write out a custom message for the card.\n")
+
+print(f'Hello {name.capitalize()}! Thank you for attending the {occasion.lower()}. {custom_message.capitalize()}')
